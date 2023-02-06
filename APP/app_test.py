@@ -1,11 +1,11 @@
 import sys
 from PySide6.QtWidgets import *
 
-import window
-from window import Window
+import APP.window_test as window_test
+from APP.window_test import Window
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    window = Window()
-    window.show()
+    window_test = Window()
+    window_test.show()
     sys.exit(app.exec())
