@@ -32,7 +32,7 @@ The Mars Rover Image Retriever is a simple desktop application that allows users
 
 ## Technical Details
 
-The Mars Rover Image Retriever is built with Python and uses the Requests library to make API requests. The GUI and image display is implemented by using the PYQT library.
+The Mars Rover Image Retriever is built with Python and uses the Requests library to make API requests. The GUI and image display is implemented by using the PYQT library. The email sending functionality is made with the help of ezgmail python module.
 
 ## Conclusion
 
