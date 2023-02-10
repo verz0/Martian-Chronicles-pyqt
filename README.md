@@ -8,7 +8,7 @@ The Mars Rover Image Retriever is a simple desktop application that allows users
 
 * Simple, easy-to-use interface for searching and viewing images
 * Option to choose between the Mars Rovers (Curiosity, Opportunity, and Spirit)
-* Option to filter images by camera and by earth-date 
+* Option to filter images by cameras common to the three rovers and by earth-date 
 * Display of full-size images
 * Email sending functionality
 * Pop up messages when errors show up and a status bar to let the user know that images are downloading
