@@ -104,7 +104,9 @@ class MarsRoverWindow(QMainWindow):
         self.email_window.show()
             
     def mail(self):
-            ezgmail.send(self.email_input.text(), self.subject_input.text(), self.body_input.text(), attachments=f"images/image_{self.current_index}.jpg")
+            email_list = self.email_input.text().split(',')
+            for email in email_list:
+                ezgmail.send(email, self.subject_input.text(), self.body_input.text(), attachments=f"images/image_{self.current_index}.jpg")
             msg = QMessageBox()
             msg.setWindowTitle("Success")
             msg.setText("Email sent successfully!")
